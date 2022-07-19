@@ -1,10 +1,10 @@
 var browser = browser || chrome;
 
 // heroku deployment endpoints
-const server_endpoint = "D:/u/public/";
-const download_endpoint = "D:/u/public/";
-const get_info_endpoint = "D:/u/public/";
-const wakeup_dlp_endpoint = "D:/u/public/";
+const server_endpoint = "https://ytmp3-converter.herokuapp.com/";
+const download_endpoint = "https://ytmp3-converter.herokuapp.com/download/";
+const get_info_endpoint = "https://ytmp3-converter.herokuapp.com/getInfo/";
+const wakeup_dlp_endpoint = "https://yt-dlp-back.herokuapp.com/wakeup";
 
 // local deployment endpoints
 // const server_endpoint = 'http://localhost:3000/'
